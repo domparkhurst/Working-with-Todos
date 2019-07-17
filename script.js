@@ -1,9 +1,6 @@
 // store todos
 var todoData = [];
 
-// store values
-var value;
-
 function newTodo() {
     // get input value to array
     var todoInput = document.getElementById("todo-input");
