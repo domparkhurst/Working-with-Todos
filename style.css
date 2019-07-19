@@ -1,0 +1,155 @@
+/* html styles */ 
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 63px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    box-sizing: border-box;
+    color: #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1em;
+}
+
+div {
+    width: 100% !important;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+div button {
+    width: 24.5% !important;
+    height: 34px;
+    box-sizing: border-box;
+    background-color: #e74c3c !important;
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}
+
+ul {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+ul li {
+    width: 100%;
+    list-style-type: none;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+ul li:nth-child(odd) {
+    padding-top: 16px;
+    border-top: 1px solid #ccc;
+}
+
+ul li:nth-child(even) {
+    border-top: 1px solid #ccc;
+    padding-top: 16px;
+}
+
+ul li:first-child {
+    border-top: 0 solid #000;
+}
+
+/* classes */
+/* flexbox */
+.flex {
+    display: flex;
+    background-color: #fff;
+    height: 64px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div .flex-center {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 0;
+    background-color: #333;
+}
+
+/* list item style */
+.li-flex {
+    display: flex;   
+    align-items: center;
+}
+
+/* controls */
+.nav-dimensions {
+    width: 100%;
+    height: 64px !important;
+}
+
+.panel {
+    height: 32px;
+    width: 100%;
+    background-color: #333;
+}
+
+.input-text {
+    width: 75%;
+    height: 32px;
+    border: 0;
+    padding-left: .75em;
+    font-size: .75em;
+}
+
+.input-submit {
+    width: 25%;
+    height: 34px;
+    background-color: #2ecc71;
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.input-delete {
+    width: 25%;
+    height: 34px;
+    background-color: #e74c3c;
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.li-flex div {
+    font-size: .75em;
+}
