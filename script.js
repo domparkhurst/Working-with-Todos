@@ -36,8 +36,8 @@ function newTodo() {
     divElem.appendChild(btnElem);
 
     btnElem.addEventListener("click", function(){
-        var liElem = this.parentElement.parentElement;
-        liElem.remove(this);
+        var btnElem = this.parentElement.parentElement;
+        btnElem.remove(this);
     });
 }
 
